@@ -77,7 +77,7 @@ spec:
   - metadata:
       name: storage
     spec:
-      storageClassName: standard
+      storageClassName: local-volume
       accessModes: [ ReadWriteOnce ]
       resources:
         requests:
